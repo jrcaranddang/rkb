@@ -1,0 +1,18 @@
+md-toolbar {
+    background: #E8D4CD;
+}
+
+.nav {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-around;
+}
+
+.container {
+    background: seashell;
+    margin: 0 auto;
+    
+    min-height: 50rem;
+    height: 100%;
+    max-width: 74rem;
+}

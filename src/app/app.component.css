@@ -1,0 +1,15 @@
+.brand {
+    background: floralwhite;
+    text-align: center;
+}
+
+.brand > h1 {
+    font-size: 6rem;
+    margin: 0;
+}
+
+.address-bar {
+    background: seashell;
+    font-size: 1.5rem;
+    text-align: center;
+}

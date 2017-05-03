@@ -1,0 +1,54 @@
+.box {
+    background: #FFF5EE;
+    width: 100%;
+    height: 10rem;
+    line-height: 2;
+
+    p {
+        padding: 0;
+    }
+
+    button {
+        background: #FFF5E1;
+        border: 1px solid #E8D4CD;
+        line-height: 2;
+    }
+}
+
+section {
+    width: 100%;
+
+    .container {
+        padding: 3rem 0;
+        min-height: 100%;
+    }
+
+    h1 {
+        border-bottom: 2px solid #E8D4CD;
+        padding-top: 4rem;
+        text-align: center;
+        line-height: 2;
+    }
+
+    md-card {
+        background: #FFF5EE;
+        height: 100%;
+        width: 25rem;
+        line-height: 1.5;
+    }
+
+    img {
+        height: 20rem;
+    }
+
+    h2 {
+        margin: 4rem 0;
+        line-height: 2;
+    }
+
+    button {
+        background: #FFF5E1;
+        border: 1px solid #E8D4CD;
+        line-height: 2;
+    }
+}
