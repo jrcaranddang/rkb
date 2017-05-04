@@ -2,14 +2,15 @@
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
 
 /*color pallette:
-    FFF5EE
-    FFF5E1
-    E8DCCD
-    E8D4CD
-    FFE5E1*/
+    #FFF5EE
+    #FFF5E1
+    #E8DCCD
+    #E8D4CD
+    #FFE5E1*/
 
 * {
     box-sizing: border-box;
+    color: #555;
 }
 
 body {

@@ -16,3 +16,7 @@ md-toolbar {
     height: 100%;
     max-width: 74rem;
 }
+
+span > button {
+    letter-spacing: 5px !important;
+}

@@ -1,9 +1,19 @@
-.carousel {
-    height: 30rem;
-    padding: 0;
+* {
+    letter-spacing: 1px;
+    color: white;
 }
 
-.carousel-item {
-    background: #eee;
-    height: 30rem;
+.carouselWrapper {
+    background: floralwhite;
+
+    .carousel {
+        height: 30rem;
+        padding: 0;
+        max-width: 1200px;
+    }
+
+    .carousel-item {
+        background: floralwhite;
+        height: 30rem;
+    }
 }

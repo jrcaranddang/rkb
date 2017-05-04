@@ -1,9 +1,18 @@
+* {
+    letter-spacing: 1px;
+    color: #555;
+}
+
 .carousel {
     height: 20rem;
     padding: 0;
 }
 
 .carousel-item {
-    background: #eee;
+    background: floralwhite;
     height: 20rem;
+
+    .carousel-caption {
+        top: 20px;
+    }
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { OurPromiseComponent } from '../our-promise/our-promise.component';
 
 @Component({
   selector: 'app-about',

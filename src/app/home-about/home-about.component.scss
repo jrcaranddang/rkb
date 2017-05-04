@@ -1,7 +1,7 @@
 section {
     background: #FFF5E1;
     width: 100%;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 
     .container {
         min-height: 100%;
@@ -16,6 +16,7 @@ section {
 
     p {
         line-height: 2;
+        letter-spacing: 1px;
         padding: 3rem 0;
     }
 
@@ -24,9 +25,10 @@ section {
             // line-height: 2;
         }
         
-        p {
+        .block > p {
             padding: 0 0 2rem 0;
             line-height: 1.5;
+            letter-spacing: 1px;
         }
     }
 }

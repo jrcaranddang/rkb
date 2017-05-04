@@ -11,6 +11,8 @@ import { MdIconModule } from '@angular/material';
 import { MdMenuModule } from '@angular/material';
 import { MdButtonModule } from '@angular/material';
 import { MdCardModule } from '@angular/material';
+import { MdGridListModule } from '@angular/material';
+import { MdInputModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -55,7 +57,9 @@ import { FooterComponent } from './footer/footer.component';
     MdIconModule,
     MdMenuModule,
     MdButtonModule,
-    MdCardModule
+    MdCardModule,
+    MdGridListModule,
+    MdInputModule
   ],
   providers: [WindowSizeService],
   bootstrap: [AppComponent]
