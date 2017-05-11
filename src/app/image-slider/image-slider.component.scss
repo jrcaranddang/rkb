@@ -7,13 +7,57 @@
     background: floralwhite;
 
     .carousel {
-        height: 30rem;
-        padding: 0;
+        max-height: 30rem;
         max-width: 1200px;
+        padding: 0;
     }
 
     .carousel-item {
         background: floralwhite;
         height: 30rem;
+        
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+    .carousel-caption {
+        background: rgba(232, 212, 205, 0.8);
+    }
+
+    .img-fluid {
+        height: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        md-icon {
+        color: #555;
+        }
     }
 }
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+    .carousel-item > img {
+        // max-height: 15rem;
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    
+ }

@@ -1,17 +1,19 @@
 <section>
+    <div class="viewbox d-flex justify-content-center align-items-center" *ngIf="clicked">
+        <img src="{{fullImage}}" alt="full size image" (click)="closeImage()">
+    </div>
     <h1 class="col-6 mx-auto">GALLERY</h1>
     <div class="container col-lg-9">
         <div>
             <md-grid-list cols="6" rowHeight="100px">
-                <md-grid-tile
+                <md-grid-tile class="tile" (click)="viewImage(tile)"
                     *ngFor="let tile of tiles"
                     [colspan]="tile.cols"
                     [rowspan]="tile.rows"
                     [style.background]="tile.color"
                     [style.background-image]="tile.img">
-                    {{tile.text}}
                 </md-grid-tile>
             </md-grid-list>
-        </div>
+        </div> 
     </div>
 </section>

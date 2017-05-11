@@ -29,4 +29,30 @@ section {
         background-position: center center !important;
         background-repeat: no-repeat !important;
     }
+        
+    .tile:hover {
+        cursor: pointer;
+    }
+
+    .viewbox {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        max-height: 100vh;
+        width: 100%;
+        max-width: 100vw;
+        background: rgba(33, 33, 33, 0.9);
+        z-index: 1;
+        
+        img {
+            max-width: 100vw;
+            max-height: 100%;
+            padding: .5rem;
+        }
+        img:hover {
+            cursor: pointer;
+        }
+    }
+
 }

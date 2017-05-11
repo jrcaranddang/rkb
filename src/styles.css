@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 /*color pallette:
     #FFF5EE
@@ -11,6 +12,7 @@
 * {
     box-sizing: border-box;
     color: #555;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -26,7 +28,14 @@ body {
     height: 100%;
 }
 
+h1 {
+}
+
 p {
     margin: 0;
     padding: 1rem;
+}
+
+.mat-menu-content {
+    background: floralwhite;
 }
